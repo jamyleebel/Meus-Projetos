@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+
+temos 2 métodos de fazer um formulário post e get
+
+-->
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="#">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" 
+                   name="nome"/><!--  for e id tem que estar com o mesmo nome-->
+                   <br>
+                   <input type ="text" id="nome1"
+                          name="nome1" placeholder="Nome"/>
+                   <br>
+            <label for="estado">Estado</label>
+            <select id="estado">
+            <option value="PR">PR</option>
+            <option value="SC">SC</option>
+            </select>
+            <br>
+            <textarea rows="6" id="msag"
+                      name="msag"></textarea>
+            <button type="submit">Enviar</button>
+                   
+        </form>
+    </body>
+</html>

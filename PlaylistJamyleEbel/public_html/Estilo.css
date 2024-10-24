@@ -1,0 +1,49 @@
+/*Fonte do texto*/
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+#imagem {
+    text-align: center;
+}
+
+#imagem img {
+    border: 1px solid #010101;
+    padding: 2em;
+}
+#nome{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    margin-bottom: 1em;
+    text-indent:0em;/*centralizar corretamente o título*/  
+}
+#texto{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    margin-bottom: 1em;
+    text-indent:0em;/*centralizar corretamente o título*/     
+}
+#musicas{
+     max-width: 80%;
+     margin: 1em auto;/*em cima e embaixo*/
+     background-color: #99ffcc;
+     padding: 4.5em;
+     border: 1px solid #010101;/*Finura daa linha */
+     text-align: center;
+}
+#musicas h3{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    margin-bottom: 1em;
+    text-indent:0em;/*centralizar corretamente o título*/    
+}
+footer{
+    background-color: #99ffcc;
+    border: 1px solid ;/*linha de cima*/
+    text-align: center;
+    padding: 1em; /*espaçamento do chão ate a linha*/
+    font-size: 0,20em; /*tamanho da escrita*/
+}
+body{
+    background-color: #ccffcc;
+    background-image:  ("https://www.transparenttextures.com/patterns/food.png");
+}
