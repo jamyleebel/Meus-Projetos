@@ -1,0 +1,87 @@
+/*Fonte padrão texto*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+/*Fonte  padrão títuo*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Jost:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+background-color: #d14b62;
+background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+font-family: 'Jost', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color:  #d14b62;/*cor do fundo do topo*/
+    color:#010101;/*cor da letra*/
+    padding: 2em;
+    font-family: 'Aboreto', cursive;
+    font-size: 1.5em;
+    letter-spacing : 0.2em;
+    border-bottom: 1px solid #010101;
+}
+#conteudo{
+    max-width: 80%;
+     margin: 2em auto;/*em cima e embaixo*/
+     background-color: #d14b62;
+     padding: 2em;
+     border: 1px solid #010101;
+}
+#imagem{
+    text-align: center;  
+}    
+/*#imagem{
+border: 1px solid #010101;
+}*/
+#texto{
+    color: #010101;
+    font-size: 1.40em;/* tamanho da letra*/
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 2em 0; /*espaçamento da margem - esquerda direita*/     
+}
+#texto h2{
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    margin-bottom: 1em;
+    text-indent:0em;/*centralizar corretamente o título*/     
+}
+#links{
+    display: flex;/*links em baixo do texto*/
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+#links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.60em;/*aumentar o tamanho */
+}
+#links a:hover{
+ font-weight: bold;
+ font-size: 1.25em;
+}
+footer{
+    background-color: #d14b62;
+    border-top: 1px solid #660066;/*linha de cima*/
+    text-align: center;
+    padding: 1.5em; /*espaçamento do chão ate a linha*/
+    font-size: 1.50em; /*tamanho da escrita*/
+}
+@media (max-width:500px){/*definir algumas formatações para tamanho decelular ou tablet entre outros*/
+    #links{/*formatação dos links(se é um embaixo do outro, e tbm os espaçamentos)*/
+        flex-direction: column;
+    }
+    #links a{
+        margin-bottom: 1.25m;
+    }
+}
+
+
